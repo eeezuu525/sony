@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script>
+        window.onload = () => {
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                loop: true,
+
+                /* centeredSlides: true, */
+
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                speed: 1000,
+
+
+                pagination: {
+                    /* el: ".swiper-pagination", */
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <section class="section">
+        <header class="header">
+            <div class="inner">
+
+                <div class="inner-01">
+
+                    <logo class="logo">
+                        <a href="#"><img src="logo/sony.svg" alt=""></a>
+                    </logo><!-- .logo end -->
+
+                    <nav class="nav">
+                        <ul class="gnb">
+                            <li><a href="#">제품</a></li>
+                            <li><a href="#">고객지원</a></li>
+                            <li><a href="#">소니와환경</a></li>
+                            <li><a href="#">playstation</a></li>
+                            <li><a href="#">시그니처</a></li>
+                        </ul><!-- .gnb end -->
+                    </nav><!-- .nav end -->
+
+                </div><!-- .inner-01 end -->
+
+                <div class="inner-02">
+                    <icon class="icon">
+                        <ul class="util">
+                            <li><a href="#">로고</a></li>
+                            <li><a href="#">로고</a></li>
+                            <li><a href="#">로고</a></li>
+                        </ul><!-- .util end-->
+                    </icon><!-- .icon end -->
+
+                    <div class="box">
+                        <a href="#">
+                            <img src="logo/Home.png" alt="">
+                            <p>소니스토어</p>
+                        </a>
+                    </div><!-- .box end -->
+
+
+                </div><!-- .inner-02 end -->
+
+            </div><!-- .inner end -->
+        </header><!-- .header end -->
+
+        <main class="my-page">
+            <section class="main_visual">
+                <div class="slide_list">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <img src="img/milkyway_.png" alt="">
+                                <div class="text">
+                                    <h2>Echoes of Light Across the Milky Way – α1 II</h2>
+                                    <p>별빛 울림처럼, 탁월한 해상력과 저조도 성능, α1 II</p>
+                                </div><!-- .text end -->
+                            </div><!-- .swiper-slide end -->
+
+                            <div class="swiper-slide">
+                                <img src="img/night_.png" alt="">
+                                <div class="text">
+                                    <h2>Where Reflections Shape the Night –FE 16-35mm F2.8 GM II</h2>
+                                    <p> 도시의 빛이 반영된 순간, 섬세한 디테일로 기록하다</p>
+                                </div><!-- .text end -->
+                            </div><!-- .swiper-slide end -->
+
+                            <div class="swiper-slide">
+                                <img src="img/audio_.png" alt="">
+                                <div class="text">
+                                    <h2>Every Note, Perfectly Yours – WH-1000XM6</h2>
+                                    <p>마치 한 편의 영화처럼, 멜로디가 마음을 채우는 순간</p>
+                                </div><!-- text end -->
+                            </div><!-- .swiper-slide end -->
+
+                        </div><!-- .swiper-wrapper end -->
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div><!-- .swiper mySwiper end -->
+
+
+                    <!--  <div class="slide-01">
+                    <img src="img/e56526893742debc02e8e9b4bde0a14a.jpg" alt="">
+                    <h2>Echoes of Light Across the Milky Way – α1 II</h2>
+                    <p>별빛 울림처럼, 탁월한 해상력과 저조도 성능, α1 II</p>
+                </div> --><!-- .slide-01 end -->
+
+                    <!-- <div class="slide-02">
+
+                </div> --><!-- slide-02 end -->
+
+                    <!--  <div class="slide-03">
+
+                </div> --><!-- .slide-03 end -->
+
+                </div><!-- .slide_list -->
+
+                <div class="slide_icon">
+
+                </div><!-- .slide_icon end -->
+
+                <div class="slide_left">
+
+                </div><!-- .slide_left -->
+                <div class="slide_right">
+
+                </div><!-- .slide_right end -->
+
+            </section><!-- .main_visual -->
+
+            <section class="section-01">
+                <h3>SONY로 완성되는 당신의 라이프스타일</h3>
+                <div class="list">
+                    <div class="item">
+                        <img src="img/e56526893742debc02e8e9b4bde0a14a.jpg" alt="">
+                        <p>시그니처 컬렉션</p>
+
+                    </div><!-- .item end -->
+                </div><!-- .list end -->
+            </section><!-- section-01 end -->
+
+            <section class="section-02">
+
+            </section><!-- .section-02 end -->
+
+            <section class="section-03">
+
+            </section><!-- .section-03 end -->
+
+        </main><!-- my-page.end -->
+
+        <footer class="footer">
+
+        </footer><!-- .footer end -->
+
+    </section><!-- .section end -->
+
+</body>
+
+</html>
